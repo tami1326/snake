@@ -1,0 +1,46 @@
+body {
+   background-color: rgb(44, 9, 44);
+   text-align: center;
+}
+
+.header {
+    color: white;
+    font-size: 45px;
+}
+
+.scoreBoard {
+    font-size: 25px;
+    color: white;
+}
+
+.gameBoard {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(20, auto);
+    
+}
+
+.gameBoard div {
+    width: 25px;
+    height: 25px;
+    border: 0.5px solid rgb(179, 158, 209);
+    background-color: rgb(138, 117, 168);
+    font-size: 30px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#finalMessage {
+    font-size: 35px;
+    color: white;
+}
+
+.restartButton {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
